@@ -1,0 +1,1 @@
+this is a dummy package used to demonstrate the [sesify security system](https://github.com/metamask/sesify)
