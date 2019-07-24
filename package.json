@@ -9,6 +9,6 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "global": "^4.4.0"
+    "sesify-example-fetch": "^1.0.0"
   }
 }

